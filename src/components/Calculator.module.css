@@ -13,12 +13,11 @@
 .calculator {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: 1.25fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 0.5fr 1.1fr 1fr 1fr 1fr 1fr;
 
 	margin: 0 auto;
-	margin-top: 5rem;
 
-	width: 40rem;
+	width: 50rem;
 
 	background-color: var(---grey);
 	padding: 0.15rem;
@@ -27,8 +26,20 @@
 	background-color: var(---black);
 	color: var(---white);
 	text-align: right;
-	font-size: 4rem;
-	padding: 2rem 2rem;
+	font-size: 5rem;
+	padding: 1rem 2rem;
+	border: none;
+}
+
+.calculator-input-calc {
+	background-color: var(---black);
+	color: var(---white);
+	text-align: right;
+	font-size: 2rem;
+	padding: 2rem 3rem;
+
+	border: none;
+	outline: none;
 }
 
 .calculator-btn {
